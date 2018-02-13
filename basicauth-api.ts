@@ -7,7 +7,7 @@ const testAuth = (z , bundle) => {
   var buffer = new Buffer(string);
   var toBase64 = buffer.toString('base64');//converting password into base64
 
-  return z.request({
+  return z.request({3erwqfreqwrew
       url: 'https://{{bundle.authData.subdomain}}/api/login.json',
       method:'POST',
       body:JSON.stringify({
