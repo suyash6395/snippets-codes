@@ -1,5 +1,5 @@
 var url = require('url');
-require('dotenv').config();//dotenv module used for .env file sotres secret info(api key)...[dotenv module used locally]
+require('dotenv').config();//dotenv module used for .env file sotres secret info(api key)...[dotenv module used locally];
 
 const Auth = (z , bundle) => {
 
