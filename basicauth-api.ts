@@ -61,7 +61,7 @@ const getSessionKey = (z , bundle) => { //
         throw new Error("Invalid username or Password");
       }else
       {
-      return response["json"]["ms_response"]["user"];//returning response(session_id,session_hash,user_) to getSessionKey
+      return response["json"]["ms_response"]["user"];//returning response in array(session_id,session_hash,user_) to getSessionKey
       }
 
 
