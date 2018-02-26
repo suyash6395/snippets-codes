@@ -1,7 +1,7 @@
 var url = require('url');
 require('dotenv').config();//dotenv module used for .env file sotres secret info(api key)...[dotenv module used locally];
 
-const Auth = (z , bundle) => {
+const Auth = (z , bundle) => { //This object holds the user's auth details and the data for the API requests.
 
   var string = bundle.authData.password;//accepting password as string which is encrypted by authData.
   var buffer = new Buffer(string);
