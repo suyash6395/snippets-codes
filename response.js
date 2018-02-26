@@ -7,5 +7,9 @@ var ob =  JSON.parse(response.content); //accepting response as string and conve
            z.console.log ("p1",response);
            return bb; // returning array present in "bb" 
            
-           
+//normal returning using json parse.
+return promise.then((response) => JSON.parse(response.content));
+
+//returning response in array.
+return response["json"]["ms_response"]["xyz"];
            
